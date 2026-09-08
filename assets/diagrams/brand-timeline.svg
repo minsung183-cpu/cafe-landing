@@ -1,0 +1,46 @@
+<svg viewBox="0 0 840 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="brand-timeline-title brand-timeline-desc" font-family="'Noto Sans KR','Malgun Gothic',sans-serif">
+  <title id="brand-timeline-title">모모 카페의 여정</title>
+  <desc id="brand-timeline-desc">2020년 창업부터 2026년 현재까지 모모 카페의 주요 마일스톤 네 가지를 시간 순으로 나열한 타임라인.</desc>
+
+  <rect width="840" height="220" fill="#f6efe6"/>
+
+  <!-- axis -->
+  <line x1="60" y1="110" x2="780" y2="110" stroke="#a9765f" stroke-width="1.2"/>
+
+  <!-- 2020 -->
+  <circle cx="60" cy="110" r="8" fill="#f6efe6" stroke="#3b2a20" stroke-width="1.5"/>
+  <rect x="16" y="70" width="88" height="16" rx="2" fill="#f6efe6"/>
+  <text x="60" y="82" fill="#3b2a20" font-size="12" font-weight="700" text-anchor="middle">2020</text>
+  <rect x="0" y="132" width="120" height="40" rx="2" fill="#f6efe6"/>
+  <text x="60" y="146" fill="#3b2a20" font-size="12" font-weight="600" text-anchor="middle">모모 카페 오픈</text>
+  <text x="60" y="162" fill="#6f4e37" font-size="10" text-anchor="middle">작은 동네 카페로 시작</text>
+
+  <!-- 2022 -->
+  <circle cx="300" cy="110" r="8" fill="#f6efe6" stroke="#3b2a20" stroke-width="1.5"/>
+  <rect x="256" y="70" width="88" height="16" rx="2" fill="#f6efe6"/>
+  <text x="300" y="82" fill="#3b2a20" font-size="12" font-weight="700" text-anchor="middle">2022</text>
+  <rect x="240" y="132" width="120" height="40" rx="2" fill="#f6efe6"/>
+  <text x="300" y="146" fill="#3b2a20" font-size="12" font-weight="600" text-anchor="middle">자체 로스터리 시작</text>
+  <text x="300" y="162" fill="#6f4e37" font-size="10" text-anchor="middle">매일 아침 직접 로스팅</text>
+
+  <!-- 2024 -->
+  <circle cx="540" cy="110" r="8" fill="#f6efe6" stroke="#3b2a20" stroke-width="1.5"/>
+  <rect x="496" y="70" width="88" height="16" rx="2" fill="#f6efe6"/>
+  <text x="540" y="82" fill="#3b2a20" font-size="12" font-weight="700" text-anchor="middle">2024</text>
+  <rect x="480" y="132" width="120" height="40" rx="2" fill="#f6efe6"/>
+  <text x="540" y="146" fill="#3b2a20" font-size="12" font-weight="600" text-anchor="middle">공간 리뉴얼</text>
+  <text x="540" y="162" fill="#6f4e37" font-size="10" text-anchor="middle">따뜻한 나무 인테리어</text>
+
+  <!-- 2026 (focal, current) -->
+  <circle cx="780" cy="110" r="10" fill="#f2ddc0" stroke="#c98a4b" stroke-width="1.6"/>
+  <rect x="736" y="68" width="88" height="16" rx="2" fill="#f6efe6"/>
+  <text x="780" y="80" fill="#a9622b" font-size="12" font-weight="700" text-anchor="middle">2026</text>
+  <rect x="716" y="132" width="120" height="40" rx="2" fill="#f6efe6"/>
+  <text x="780" y="146" fill="#3b2a20" font-size="12" font-weight="700" text-anchor="middle">지금, 모모 카페</text>
+  <text x="780" y="162" fill="#6f4e37" font-size="10" text-anchor="middle">여전히 이 자리에서</text>
+
+  <!-- legend -->
+  <line x1="40" y1="186" x2="800" y2="186" stroke="#3b2a20" stroke-opacity="0.12" stroke-width="0.8"/>
+  <circle cx="48" cy="200" r="4" fill="#c98a4b"/>
+  <text x="60" y="204" fill="#6f4e37" font-size="9" letter-spacing="0.04em">현재 진행 중인 시점</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg viewBox="0 0 908 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="process-flow-title process-flow-desc" font-family="'Noto Sans KR','Malgun Gothic',sans-serif">
+  <title id="process-flow-title">커피가 만들어지는 과정</title>
+  <desc id="process-flow-desc">원두 선별부터 서빙까지 다섯 단계로 커피 한 잔이 만들어지는 과정을 보여주는 순서도이며, 매일 아침 진행하는 직접 로스팅 단계를 강조한다.</desc>
+  <defs>
+    <marker id="pf-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#a9765f"/>
+    </marker>
+  </defs>
+
+  <rect width="908" height="240" fill="#f6efe6"/>
+
+  <!-- arrows first (behind boxes) -->
+  <line x1="180" y1="100" x2="212" y2="100" stroke="#a9765f" stroke-width="1.2" marker-end="url(#pf-arrow)"/>
+  <line x1="352" y1="100" x2="384" y2="100" stroke="#a9765f" stroke-width="1.2" marker-end="url(#pf-arrow)"/>
+  <line x1="524" y1="100" x2="556" y2="100" stroke="#a9765f" stroke-width="1.2" marker-end="url(#pf-arrow)"/>
+  <line x1="696" y1="100" x2="728" y2="100" stroke="#a9765f" stroke-width="1.2" marker-end="url(#pf-arrow)"/>
+
+  <!-- Step 1: 원두 선별 -->
+  <rect x="40" y="56" width="140" height="88" rx="8" fill="#ffffff" stroke="#3b2a20" stroke-width="1"/>
+  <rect x="52" y="68" width="52" height="16" rx="2" fill="transparent" stroke="#3b2a20" stroke-opacity="0.35" stroke-width="0.8"/>
+  <text x="78" y="79" fill="#3b2a20" fill-opacity="0.7" font-size="8" text-anchor="middle" letter-spacing="0.08em">STEP 1</text>
+  <text x="110" y="106" fill="#3b2a20" font-size="14" font-weight="600" text-anchor="middle">원두 선별</text>
+  <text x="110" y="124" fill="#6f4e37" font-size="10" text-anchor="middle">좋은 생두 고르기</text>
+
+  <!-- Step 2: 로스팅 (focal) -->
+  <rect x="212" y="52" width="140" height="96" rx="8" fill="#f2ddc0" stroke="#c98a4b" stroke-width="1.2"/>
+  <rect x="224" y="64" width="52" height="16" rx="2" fill="transparent" stroke="#c98a4b" stroke-opacity="0.5" stroke-width="0.8"/>
+  <text x="250" y="75" fill="#a9622b" font-size="8" text-anchor="middle" letter-spacing="0.08em">STEP 2</text>
+  <text x="282" y="104" fill="#3b2a20" font-size="14" font-weight="700" text-anchor="middle">로스팅</text>
+  <text x="282" y="122" fill="#6f4e37" font-size="10" text-anchor="middle">매일 아침 직접 로스팅</text>
+
+  <!-- Step 3: 그라인딩 -->
+  <rect x="384" y="56" width="140" height="88" rx="8" fill="#ffffff" stroke="#3b2a20" stroke-width="1"/>
+  <rect x="396" y="68" width="52" height="16" rx="2" fill="transparent" stroke="#3b2a20" stroke-opacity="0.35" stroke-width="0.8"/>
+  <text x="422" y="79" fill="#3b2a20" fill-opacity="0.7" font-size="8" text-anchor="middle" letter-spacing="0.08em">STEP 3</text>
+  <text x="454" y="106" fill="#3b2a20" font-size="14" font-weight="600" text-anchor="middle">그라인딩</text>
+  <text x="454" y="124" fill="#6f4e37" font-size="10" text-anchor="middle">추출 직전 분쇄</text>
+
+  <!-- Step 4: 추출 -->
+  <rect x="556" y="56" width="140" height="88" rx="8" fill="#ffffff" stroke="#3b2a20" stroke-width="1"/>
+  <rect x="568" y="68" width="52" height="16" rx="2" fill="transparent" stroke="#3b2a20" stroke-opacity="0.35" stroke-width="0.8"/>
+  <text x="594" y="79" fill="#3b2a20" fill-opacity="0.7" font-size="8" text-anchor="middle" letter-spacing="0.08em">STEP 4</text>
+  <text x="626" y="106" fill="#3b2a20" font-size="14" font-weight="600" text-anchor="middle">추출</text>
+  <text x="626" y="124" fill="#6f4e37" font-size="10" text-anchor="middle">정성스러운 핸드드립</text>
+
+  <!-- Step 5: 서빙 -->
+  <rect x="728" y="56" width="140" height="88" rx="8" fill="#ffffff" stroke="#3b2a20" stroke-width="1"/>
+  <rect x="740" y="68" width="52" height="16" rx="2" fill="transparent" stroke="#3b2a20" stroke-opacity="0.35" stroke-width="0.8"/>
+  <text x="766" y="79" fill="#3b2a20" fill-opacity="0.7" font-size="8" text-anchor="middle" letter-spacing="0.08em">STEP 5</text>
+  <text x="798" y="106" fill="#3b2a20" font-size="14" font-weight="600" text-anchor="middle">서빙</text>
+  <text x="798" y="124" fill="#6f4e37" font-size="10" text-anchor="middle">따뜻하게 한 잔</text>
+
+  <!-- legend -->
+  <line x1="40" y1="184" x2="868" y2="184" stroke="#3b2a20" stroke-opacity="0.12" stroke-width="0.8"/>
+  <circle cx="48" cy="200" r="4" fill="#c98a4b"/>
+  <text x="60" y="204" fill="#6f4e37" font-size="9" letter-spacing="0.04em">모모 카페의 시그니처 단계 — 매일 아침 직접 로스팅합니다</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 648 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="visit-steps-title visit-steps-desc" font-family="'Noto Sans KR','Malgun Gothic',sans-serif">
+  <title id="visit-steps-title">매장 이용 순서</title>
+  <desc id="visit-steps-desc">입장, 주문, 픽업, 착석 및 이용의 네 단계로 이어지는 모모 카페 방문 고객의 이용 순서를 보여준다.</desc>
+
+  <defs>
+    <marker id="vs-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#a9765f"/>
+    </marker>
+  </defs>
+
+  <rect width="648" height="180" fill="#f6efe6"/>
+
+  <!-- connectors first -->
+  <line x1="132" y1="100" x2="212" y2="100" stroke="#a9765f" stroke-width="1.2" marker-end="url(#vs-arrow)"/>
+  <line x1="284" y1="100" x2="364" y2="100" stroke="#a9765f" stroke-width="1.2" marker-end="url(#vs-arrow)"/>
+  <line x1="436" y1="100" x2="516" y2="100" stroke="#a9765f" stroke-width="1.2" marker-end="url(#vs-arrow)"/>
+
+  <!-- Step 1: 입장 -->
+  <circle cx="96" cy="100" r="36" fill="#ffffff" stroke="#3b2a20" stroke-width="1.2"/>
+  <text x="96" y="107" fill="#3b2a20" font-size="18" font-weight="700" text-anchor="middle">1</text>
+  <text x="96" y="160" fill="#3b2a20" font-size="12" font-weight="600" text-anchor="middle">입장</text>
+
+  <!-- Step 2: 주문 -->
+  <circle cx="248" cy="100" r="36" fill="#ffffff" stroke="#3b2a20" stroke-width="1.2"/>
+  <text x="248" y="107" fill="#3b2a20" font-size="18" font-weight="700" text-anchor="middle">2</text>
+  <text x="248" y="160" fill="#3b2a20" font-size="12" font-weight="600" text-anchor="middle">주문</text>
+
+  <!-- Step 3: 픽업 -->
+  <circle cx="400" cy="100" r="36" fill="#ffffff" stroke="#3b2a20" stroke-width="1.2"/>
+  <text x="400" y="107" fill="#3b2a20" font-size="18" font-weight="700" text-anchor="middle">3</text>
+  <text x="400" y="160" fill="#3b2a20" font-size="12" font-weight="600" text-anchor="middle">픽업</text>
+
+  <!-- Step 4: 착석/이용 (focal) -->
+  <circle cx="552" cy="100" r="36" fill="#f2ddc0" stroke="#c98a4b" stroke-width="1.6"/>
+  <text x="552" y="107" fill="#a9622b" font-size="18" font-weight="700" text-anchor="middle">4</text>
+  <text x="552" y="160" fill="#3b2a20" font-size="12" font-weight="700" text-anchor="middle">착석 · 이용</text>
+</svg>

@@ -132,6 +132,28 @@
     margin-bottom: 16px;
   }
 
+  /* Story / Process / Visit — diagram sections */
+  .story { background: #fff; }
+  .process { background: var(--cream); }
+  .visit { background: #fff; }
+  .diagram-card {
+    max-width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid var(--cream-dark);
+    border-radius: 16px;
+    padding: 32px 24px;
+    box-shadow: 0 6px 18px rgba(59,42,32,0.06);
+    overflow-x: auto;
+  }
+  .diagram-card img { display: block; width: 100%; height: auto; min-width: 480px; }
+  .diagram-card .caption {
+    margin-top: 18px;
+    text-align: center;
+    color: #7a6a5a;
+    font-size: 0.85rem;
+  }
+
   /* Menu */
   .menu { background: var(--cream); }
   .menu-grid {
@@ -236,6 +258,28 @@
   </div>
 </section>
 
+<section class="story" id="story">
+  <div class="section-title">
+    <span class="eyebrow">Our Story</span>
+    <h2>모모 카페의 여정</h2>
+  </div>
+  <div class="diagram-card">
+    <img src="assets/diagrams/brand-timeline.svg" alt="2020년 창업부터 2026년 현재까지 모모 카페의 주요 마일스톤을 보여주는 타임라인">
+    <p class="caption">2020년 작은 동네 카페로 시작해, 지금도 같은 자리에서 손님을 맞이하고 있습니다.</p>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <div class="section-title">
+    <span class="eyebrow">How It's Made</span>
+    <h2>커피가 만들어지는 과정</h2>
+  </div>
+  <div class="diagram-card">
+    <img src="assets/diagrams/process-flow.svg" alt="원두 선별, 로스팅, 그라인딩, 추출, 서빙 5단계로 이어지는 커피 제조 과정 순서도">
+    <p class="caption">원두 선별부터 서빙까지, 매일 아침 직접 로스팅한 원두로 정성껏 한 잔을 완성합니다.</p>
+  </div>
+</section>
+
 <section class="menu" id="menu">
   <div class="section-title">
     <span class="eyebrow">Menu</span>
@@ -266,6 +310,17 @@
       <div class="row"><h3>콜드브루</h3><span class="price">5,200원</span></div>
       <p>12시간 저온 추출한 진한 한 잔</p>
     </div>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="section-title">
+    <span class="eyebrow">Visit Guide</span>
+    <h2>매장 이용 순서</h2>
+  </div>
+  <div class="diagram-card">
+    <img src="assets/diagrams/visit-steps.svg" alt="입장, 주문, 픽업, 착석 및 이용 4단계로 이어지는 매장 이용 순서">
+    <p class="caption">입장부터 착석까지, 어렵지 않게 모모 카페를 이용해보세요.</p>
   </div>
 </section>
 
